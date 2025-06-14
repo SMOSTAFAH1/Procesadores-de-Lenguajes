@@ -1,0 +1,10 @@
+function int Func2 (int z, int n)
+{
+   n = 13;
+   z = y1 + Func2(4, global);
+   function void hola (void) 
+   {
+      output"Hello!";
+   }
+   return 5;
+}

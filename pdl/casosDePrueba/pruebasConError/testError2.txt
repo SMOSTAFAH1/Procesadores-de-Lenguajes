@@ -1,0 +1,6 @@
+function int Func1 (int x, boolean y1)
+{
+   var boolean w;
+   x = 11;
+   return y1;
+}

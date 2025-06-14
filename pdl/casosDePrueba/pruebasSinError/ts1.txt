@@ -1,0 +1,8 @@
+
+TABLA GLOBAL #0:
+
+* LEXEMA : 'i'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 0
+---------------------------------------------------

@@ -1,0 +1,35 @@
+
+TABLA LOCAL suma #1:
+
+* LEXEMA : 'x'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 0
+---------------------------------------------------
+* LEXEMA : 'y'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 1
+---------------------------------------------------
+
+TABLA GLOBAL #0:
+
+* LEXEMA : 'a'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 0
+---------------------------------------------------
+* LEXEMA : 'b'
+ATRIBUTOS:
++ tipo : 'boolean'
++ despl : 1
+---------------------------------------------------
+* LEXEMA : 'suma'
+ATRIBUTOS:
++ tipo : 'function'
++ numParam : 2
++ TipoParam01 : 'int'
++ TipoParam02 : 'int'
++ TipoRetorno : 'int'
++ EtiqFuncion : 'Et_suma'
+---------------------------------------------------

@@ -1,0 +1,10 @@
+var int a;
+var string b;
+
+function int Func1 (int x, boolean y1)  
+{
+   x = 11;
+   return x;
+}
+
+resultado = FuncNoDeclarada(1, 2);

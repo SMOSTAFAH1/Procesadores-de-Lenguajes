@@ -1,0 +1,9 @@
+var int y1;
+var string z;  /*da bien*/
+function int Func2 (int z, int n)
+{  
+   n = 13;
+   return 5;
+}
+n = 0;
+/*z ="hola;*/

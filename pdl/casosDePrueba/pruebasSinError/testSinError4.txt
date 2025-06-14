@@ -1,0 +1,10 @@
+var int a;
+var boolean b;
+
+function int suma(int x, int y)
+{
+   return x + y;
+}
+
+a = 10;
+output(a);

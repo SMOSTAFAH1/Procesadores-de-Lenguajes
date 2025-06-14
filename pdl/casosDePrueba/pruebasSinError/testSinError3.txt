@@ -1,0 +1,6 @@
+function void saludo(void)
+{
+   output("Bienvenido");
+   /* comentario en bloque */
+}
+saludo();

@@ -1,0 +1,53 @@
+Axioma = P
+NoTerminales = { P B F A S Y E L X Q C T H K R G U O V  Z }
+Terminales = { boolean break function if input int output return string while var void entero cadena id -- = ,  ;  : ( ) { } + ! != eof }
+
+Producciones = {
+P -> B P  //// var int id;
+P -> F P  //// id = 10; 
+P -> eof  //// sentencias (B) y funciones (F)
+S -> id Y    //// Sentencias simples (S)
+Y -> = E ;   //// Factorizado
+Y -> ( L ) ;   //// S -> id = E;
+Y -> -- ;  //// S -> id ( L ) ; ////
+S -> output E ;
+S -> input id ;
+S -> return X ;
+X -> E
+X -> lambda
+L -> E Q
+L -> lambda
+Q -> , E Q
+Q -> lambda
+B -> if ( E ) S       //// Sentencias compuestas (B)
+B -> while ( E ) { C }
+B -> var T id ;       //// declaracion
+B -> S
+F -> function H id ( A ) { C }  //// Funciones
+H -> T
+H -> void
+A -> void
+A -> T id K
+K -> , T id K
+K -> lambda
+C -> B C
+C -> lambda
+T -> int
+T -> boolean
+T -> string
+E -> R G         //// Expresiones (E) ej: a != b
+G -> != R G
+G -> lambda
+R -> U O       
+O -> + U O
+O -> lambda
+U -> ! V        //// Eliminar recursividad por izq
+U -> V
+V -> id Z   //// V -> id |(E)|id(L)|entero|cadena->Factorizado
+V -> entero  
+V -> cadena  
+V -> ( E )
+Z -> ( L )
+Z -> lambda
+Z -> --
+}

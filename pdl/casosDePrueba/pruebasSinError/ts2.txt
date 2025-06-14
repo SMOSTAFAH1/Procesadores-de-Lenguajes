@@ -1,0 +1,13 @@
+
+TABLA GLOBAL #0:
+
+* LEXEMA : 'b'
+ATRIBUTOS:
++ tipo : 'boolean'
++ despl : 0
+---------------------------------------------------
+* LEXEMA : 'c'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 1
+---------------------------------------------------

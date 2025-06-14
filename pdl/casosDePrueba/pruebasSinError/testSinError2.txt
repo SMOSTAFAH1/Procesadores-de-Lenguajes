@@ -1,0 +1,4 @@
+var boolean b;
+if (!b)
+   c = 7;
+output(c);

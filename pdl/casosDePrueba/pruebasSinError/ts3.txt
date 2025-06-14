@@ -1,0 +1,13 @@
+
+TABLA LOCAL saludo #1:
+
+
+TABLA GLOBAL #0:
+
+* LEXEMA : 'saludo'
+ATRIBUTOS:
++ tipo : 'function'
++ numParam : 0
++ TipoRetorno : 'void'
++ EtiqFuncion : 'Et_saludo'
+---------------------------------------------------

@@ -1,0 +1,9 @@
+var int contador;
+contador = 3;
+
+while (contador != 0)
+{
+   if (!(contador != 2))
+      output(contador);
+   contador--;
+}

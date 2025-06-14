@@ -1,0 +1,8 @@
+
+TABLA GLOBAL #0:
+
+* LEXEMA : 'contador'
+ATRIBUTOS:
++ tipo : 'int'
++ despl : 0
+---------------------------------------------------
