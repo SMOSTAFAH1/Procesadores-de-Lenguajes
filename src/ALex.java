@@ -193,12 +193,16 @@ public class ALex {
 //		return (char)reader.read();
 		return car;
 	}
-
 	public static void main(String[] args) {
 		if (args.length != 2) {
 			System.out.println("Uso: java ALex <archivo_entrada> <archivo_salida>");
 			return;
 		}
+		
+		// Inicializar las tablas de símbolos
+		Tabla tablaGlobal = TS.crearTS();
+		TS.setGlobal(tablaGlobal);
+		TS.setActual(tablaGlobal);
 		
 		try (BufferedWriter writer = new BufferedWriter(new FileWriter(args[1]))) {
 			ALex aLex = new ALex(args[0]);

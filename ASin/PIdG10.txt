@@ -3,18 +3,8 @@ function  boolean bisiesto  (int a)
 {	var string bis;
 	output "Es bisiesto?";
 	input bis;
-	return ((a + 4 != 0));	
+	return (!(a + 4 != 0));	
 }
-
-output
-
-(
-
-"https://muss.fi.upm.es/" /**/
-
-)
-
-;
 function int dias (int m, int a)
 {
 	var int dd;
@@ -25,15 +15,18 @@ function int dias (int m, int a)
 	if (bisiesto(a)) dd = dd + 1;
 	return dd;
 }
+
+output 4+5+77;
 function  boolean esFechaCorrecta (int d, int m, int a)	
 {
-	return !(d != dias (m, a));
+	return (d != dias (m, a));
 }
-function void demo  (void)	
+function void demo 
+(void)	
 {
 
-	if (esFechaCorrecta(25, 10, 2024)) output ("ok");
-	
+	if (!esFechaCorrecta(22, 22, 2022)) output 9999;
+	return;
 }
-var boolean  abc;
+var boolean  a1b2c3d4;
 demo();

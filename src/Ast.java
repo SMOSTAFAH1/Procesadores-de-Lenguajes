@@ -412,8 +412,12 @@ public class Ast {
 			return; // Aca los errores seran en la linea anterior
 		}	
 	}
-	
-	public static void main(String[] args) {
+		public static void main(String[] args) {
+		
+		// Inicializar las tablas de símbolos
+		Tabla tablaGlobal = TS.crearTS();
+		TS.setGlobal(tablaGlobal);
+		TS.setActual(tablaGlobal);
 		
 		 try {
 	            Ast ast = new Ast(args[0]);
