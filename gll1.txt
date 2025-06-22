@@ -43,7 +43,7 @@ O -> + U O
 O -> lambda
 U -> ! V        //// Eliminar recursividad por izq
 U -> V
-V -> id Z   //// V -> id |(E)|id(L)|entero|cadena->Factorizado
+V -> id Z   
 V -> entero  
 V -> cadena  
 V -> ( E )

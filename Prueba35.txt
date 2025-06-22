@@ -1,0 +1,32 @@
+var string texto;
+var int aa_aa ;
+var  int iiii;
+var string s64 ;
+var boolean bo;
+
+function int ffff  (void)
+{
+aa_aa=11  ; 
+
+aa_aa= iiii  +  33;
+
+return aa_aa;
+}	
+
+output  ;
+
+iiii=aa_aa;
+	
+output ffff();
+function void put  (string msg_)
+{
+	output msg_;
+}
+function void pideTexto  (void)
+{
+	output "Introduce un texto";
+	input texto;
+}
+pideTexto();
+  put
+	(texto);
