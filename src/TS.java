@@ -90,7 +90,7 @@ public class TS {
     	writer.newLine();
     	
     	if(titulo.equals("TABLA LOCAL")) {
-    		writer.write(titulo + " "+ name + " #" + contadorLocales +":");
+    		writer.write(titulo+ " #" + contadorLocales +":");
     	}else {
     		writer.write(titulo + " #" + 0 + ":");
     	}
